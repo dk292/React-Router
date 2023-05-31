@@ -1,0 +1,49 @@
+#hero-about {
+    background: #FFF7ED;
+    font-weight: 700;
+}
+
+#about-img img {
+    max-width: 100%;
+}
+
+#about-content {
+    padding: 3rem 2rem;
+    color: #161616;
+}
+
+#about-header {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+#about-text {
+    margin-top: 2rem;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+#about-explore {
+    margin-top: 2rem;
+    background: #FFCC8D;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+#about-explore p {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+#link-button {
+    background-color: #161616;
+    border-radius: 10px;
+    color: #fff;
+    padding: .5rem 1rem;
+}
+
+#link-button:hover {
+    cursor: pointer;
+    background-color: #363535;
+}
