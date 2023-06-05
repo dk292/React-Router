@@ -25,11 +25,14 @@
     width: 100%;
     background: #FF8C38;
     border-radius: 5px;
+    text-align: center;
+    padding: .6rem;
+    border: none;
+}
+
+#hero-btn > a {
+    color: #FFF;
     font-weight: 700;
     font-size: 15.9462px;
     line-height: 32px;
-    text-align: center;
-    color: #FFF;
-    padding: .6rem;
-    border: none;
 }

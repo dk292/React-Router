@@ -1,0 +1,46 @@
+#van-list {
+    margin-left: 1rem;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#van-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#van-image {
+    width: 15%;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+#van-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#van-content > h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#van-content h3 {
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#van-right p {
+    font-weight: 500;
+    line-height: 22px;
+}

@@ -1,0 +1,83 @@
+#host-dashboard {
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+#dashboard-main {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFEAD0;
+}
+
+#dashboard-content h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 22px;
+    margin-bottom: 1.5rem;
+}
+
+#dashboard-content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+#dashboard-content p > span {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#dashboard-content h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 38px;
+    margin-top: 1.5rem;
+}
+
+#dashboard-detail a {
+    font-weight: 500;
+    line-height: 22px;
+}
+
+#dashboard-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFDDB3;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+#dashboard-review span {
+    margin-left: 1rem;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#dashboard-review span > img {
+    width: 10%;
+    display: block;
+    margin-bottom: .2rem;
+    margin-right: 0.5rem;
+}
+
+#dashboard-review span > i {
+    font-style: normal;
+    font-weight: normal;
+}
+
+#dashboard-listed-van {
+    padding: 2rem;
+}
+
+#dashboard-listed-van #head-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}

@@ -35,9 +35,35 @@ body {
   width: 100%;
   max-width: 800px;
   box-shadow: 0 0 5px #000;
+  background-color: #FFF7ED;
 }
 
 a {
   text-decoration: none;
   color: #000;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button:hover , img:hover {
+  cursor: pointer;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+ul > li {
+  font-weight: 600;
+  line-height: 23px;
+  margin-left: 1rem;
+}
+
+ul > li > a:hover {
+  text-decoration: underline;
 }

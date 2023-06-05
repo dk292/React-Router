@@ -21,18 +21,3 @@ nav {
 #app-logo:hover, #app-logo:focus  {
     text-decoration: none !important;
 }
-
-ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-ul > li {
-    font-weight: 600;
-    line-height: 23px;
-}
-
-ul > li > a:hover, a:focus {
-    text-decoration: underline;
-}

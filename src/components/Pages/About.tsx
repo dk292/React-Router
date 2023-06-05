@@ -1,5 +1,5 @@
-import '../styles/About.css'
-import image from '../assets/image2.png'
+import '../../styles/About.css'
+import image from '../../assets/image2.png'
 import { Link } from 'react-router-dom'
 const About = () => {
   return (

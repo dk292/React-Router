@@ -1,0 +1,44 @@
+#hero-vans {
+    padding: 3rem 2rem;
+}
+
+#hero-vans h1{
+    line-height: 34px;
+    margin-bottom: 1.5rem;
+}
+
+#hero-vans ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero-vans li {
+    padding: .5rem 2rem;
+    background: #FFEAD0;
+    border-radius: 5px;  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4D4D4D;   
+}
+
+#hero-vans li:last-child {
+    padding: 0;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#van-card-lists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    gap: 2.5rem;
+    margin: 4rem 0 2rem 0; 
+}
+
+li:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+#host-detail {
+    padding: 2rem;
+}
+
+#hero-host-detail {
+    margin-top: 2rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+#back-to-vans {
+    text-decoration: underline;
+}
+
+#host-detail-header {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+#host-detail-img {
+    width: 30%;
+}
+
+#host-detail-img img {
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+#host-detail-description i {
+    font-style: normal;
+    border-radius: 4.0716px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13.0291px;
+    line-height: 26px;
+}
+
+#host-detail-description h2 {
+    font-weight: 700;
+    font-size: 26.0583px;
+    line-height: 27px;
+    margin: 1rem 0;
+}
+
+#host-detail-description h3 {
+    font-weight: 700;
+    font-size: 19.5437px;
+    line-height: 36px;
+}
+
+#host-detail-description h3 > span {
+    font-weight: normal;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 14.3548px;
+    padding: 2rem;
+}
+
+#description span {
+    font-weight: normal;
+    margin-left: 1rem;
+    line-height: 33px;
+}
+
+#detail-description {
+    padding: 2rem;
+}
+
+
+#detail-description p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+}
+
+#detail-description p > span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#detail-description img {
+    border-radius: 6px;
+    width: 20%;
+}
